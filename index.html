@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PeopleDirectory</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="theme.js" defer></script>
+  <script src="directory.js" defer></script>
+</head>
+<body>
+  <header class="directory-header">
+    <img src="images/logo.png" alt="Logo" class="logo invert-dark" onerror="this.hidden=true">
+    <div id="Filterline">
+      <a class="admin-link" href="admin/">Admin</a>
+      <button id="darkModeBtn" type="button">Dark Mode</button>
+      <label for="search"><b>Search: </b></label><input id="search" type="text">
+    </div>
+  </header>
+  <div class="directory-layout">
+    <nav id="Filterbutton" aria-label="Directory filters"></nav>
+    <main class="directory">
+      <p id="status" role="status"></p>
+      <div class="table-wrap">
+        <table id="TableMain"><thead></thead><tbody></tbody></table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
