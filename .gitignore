@@ -1,0 +1,15 @@
+# Local backups and exports may contain directory data.
+*.backup
+*.backup.*
+*.bak
+*.csv
+
+# Credentials and certificates.
+*.htpasswd
+*.key
+*.pem
+
+# Local editor and operating system files.
+.vscode/
+.DS_Store
+Thumbs.db

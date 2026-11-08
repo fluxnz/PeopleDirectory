@@ -1,0 +1,18 @@
+{
+  "people": [
+    {
+      "FirstName": "Tim",
+      "LastName": "Digital",
+      "Title": "Sample Employee",
+      "Manager": "",
+      "Cell": "",
+      "Fax": "",
+      "Email": "tim@example.com",
+      "Department": "Example",
+      "Location": "",
+      "URL": "",
+      "Description": "",
+      "Picture": ""
+    }
+  ]
+}

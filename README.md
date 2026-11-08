@@ -19,6 +19,9 @@ choose whether to invert it in dark mode. Existing directories default to
 inverting, as before. The browser tab title, logo and inversion choice are stored in
 the same data file as the people.
 A sample person is included.
+The tracked `data/directory.json` is sample data required by the installer.
+Do not replace it with a live directory or commit real user information;
+the deployed data file is stored separately in `/var/lib/people-directory/`.
 
 In the admin page, **Import CSV** displays an example and lets you map columns
 from a UTF-8 CSV file (maximum 5 MB). First name, last name and department
